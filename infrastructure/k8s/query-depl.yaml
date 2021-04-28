@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
         - name: query
-          image: dntworryjayshere/microservices-app:query
+          image: dntworryjayshere/microservices-app-query
 ---
 apiVersion: v1
 kind: Service

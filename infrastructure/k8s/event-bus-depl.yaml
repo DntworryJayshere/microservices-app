@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
         - name: event-bus
-          image: dntworryjayshere/microservices-app:event-bus
+          image: dntworryjayshere/microservices-app-event-bus
 ---
 apiVersion: v1
 kind: Service

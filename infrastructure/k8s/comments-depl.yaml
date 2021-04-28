@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
         - name: comments
-          image: dntworryjayshere/microservices-app:comments
+          image: dntworryjayshere/microservices-app-comments
 ---
 apiVersion: v1
 kind: Service

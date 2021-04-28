@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
         - name: client
-          image: dntworryjayshere/microservices-app:client
+          image: dntworryjayshere/microservices-app-client
 ---
 apiVersion: v1
 kind: Service

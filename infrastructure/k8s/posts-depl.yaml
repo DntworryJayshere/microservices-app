@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
         - name: posts
-          image: dntworryjayshere/microservices-app:posts
+          image: dntworryjayshere/microservices-app-posts
 ---
 apiVersion: v1
 kind: Service

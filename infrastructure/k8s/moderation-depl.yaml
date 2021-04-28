@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
         - name: moderation
-          image: dntworryjayshere/microservices-app:moderation
+          image: dntworryjayshere/microservices-app-moderation
 ---
 apiVersion: v1
 kind: Service
