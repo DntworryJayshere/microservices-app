@@ -2,8 +2,6 @@ apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: moderation-depl
-  labels:
-    app: moderation
 spec:
   replicas: 1
   selector:
@@ -16,7 +14,7 @@ spec:
     spec:
       containers:
         - name: moderation
-          image: dntworryjayshere/microservices-app-moderation
+          image: dntworryjayshere/microservices-app-moderation:rpi-latest
 ---
 apiVersion: v1
 kind: Service

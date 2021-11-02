@@ -2,8 +2,6 @@ apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: event-bus-depl
-  labels:
-    app: event-bus
 spec:
   replicas: 1
   selector:
@@ -16,7 +14,7 @@ spec:
     spec:
       containers:
         - name: event-bus
-          image: dntworryjayshere/microservices-app-event-bus
+          image: dntworryjayshere/microservices-app-event-bus:rpi-latest
 ---
 apiVersion: v1
 kind: Service
