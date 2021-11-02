@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: query
-          image: dntworryjayshere/microservices-app-queryt:rpi-latest
+          image: dntworryjayshere/microservices-app-query:rpi-latest
 ---
 apiVersion: v1
 kind: Service

@@ -1,0 +1,19 @@
+docker build -t dntworryjayshere/microservices-app-posts:rpi-latest .
+docker push dntworryjayshere/microservices-app-posts:rpi-latest
+
+docker build -t dntworryjayshere/microservices-app-comments:rpi-latest .
+docker push dntworryjayshere/microservices-app-comments:rpi-latest
+
+docker build -t dntworryjayshere/microservices-app-query:rpi-latest .
+docker push dntworryjayshere/microservices-app-query:rpi-latest
+
+docker build -t dntworryjayshere/microservices-app-moderation:rpi-latest .
+docker push dntworryjayshere/microservices-app-moderation:rpi-latest
+
+docker build -t dntworryjayshere/microservices-app-client:rpi-latest .
+docker push dntworryjayshere/microservices-app-client:rpi-latest
+
+docker build -t dntworryjayshere/microservices-app-event-bus:rpi-latest .
+docker push dntworryjayshere/microservices-app-event-bus:rpi-latest
+
+
