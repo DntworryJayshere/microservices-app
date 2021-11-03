@@ -16,4 +16,5 @@ docker push dntworryjayshere/microservices-app-client:rpi-latest
 docker build -t dntworryjayshere/microservices-app-event-bus:rpi-latest .
 docker push dntworryjayshere/microservices-app-event-bus:rpi-latest
 
-
+scp /client ubuntu@rpi-dev:~/microservices-app
+rsync -avz -e 'ssh' ./client ubuntu@rpi-dev:~/microservices-app
