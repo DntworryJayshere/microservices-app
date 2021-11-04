@@ -17,6 +17,7 @@ spec:
       containers:
         - name: client
           image: dntworryjayshere/microservices-app-client:rpi-latest
+      imagePullPolicy: Always
 ---
 apiVersion: v1
 kind: Service
