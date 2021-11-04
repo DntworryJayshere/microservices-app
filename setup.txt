@@ -1,20 +1,20 @@
-docker build -t dntworryjayshere/microservices-app-posts:rpi-latest .
-docker push dntworryjayshere/microservices-app-posts:rpi-latest
+docker build -t dntworryjayshere/microservices-app-posts:rpi-latest1 .
+docker push dntworryjayshere/microservices-app-posts:rpi-latest1
 
-docker build -t dntworryjayshere/microservices-app-comments:rpi-latest .
-docker push dntworryjayshere/microservices-app-comments:rpi-latest
+docker build -t dntworryjayshere/microservices-app-comments:rpi-latest1 .
+docker push dntworryjayshere/microservices-app-comments:rpi-latest1
 
-docker build -t dntworryjayshere/microservices-app-query:rpi-latest .
-docker push dntworryjayshere/microservices-app-query:rpi-latest
+docker build -t dntworryjayshere/microservices-app-query:rpi-latest1 .
+docker push dntworryjayshere/microservices-app-query:rpi-latest1
 
-docker build -t dntworryjayshere/microservices-app-moderation:rpi-latest .
-docker push dntworryjayshere/microservices-app-moderation:rpi-latest
+docker build -t dntworryjayshere/microservices-app-moderation:rpi-latest1 .
+docker push dntworryjayshere/microservices-app-moderation:rpi-latest1
 
-docker build -t dntworryjayshere/microservices-app-client:rpi-latest .
-docker push dntworryjayshere/microservices-app-client:rpi-latest
+docker build -t dntworryjayshere/microservices-app-client:rpi-latest1 .
+docker push dntworryjayshere/microservices-app-client:rpi-latest1
 
-docker build -t dntworryjayshere/microservices-app-event-bus:rpi-latest .
-docker push dntworryjayshere/microservices-app-event-bus:rpi-latest
+docker build -t dntworryjayshere/microservices-app-event-bus:rpi-latest1 .
+docker push dntworryjayshere/microservices-app-event-bus:rpi-latest1
 
 scp /client ubuntu@rpi-dev:~/microservices-app
 rsync -avz -e 'ssh' ./client ubuntu@rpi-dev:~/microservices-app
